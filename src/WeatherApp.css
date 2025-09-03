@@ -1,0 +1,56 @@
+.WeatherApp {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.197);
+  border-radius: 15px;
+  color: white;
+}
+
+.weather-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  /* 2 columns side by side */
+  gap: 30px;
+  margin-top: 20px;
+  align-items: start;
+}
+
+/* Make it stack on mobile */
+@media (max-width: 768px) {
+  .weather-layout {
+    grid-template-columns: 1fr;
+  }
+}
+.WeatherApp {
+  display: flex;
+  flex-direction: column; /* stack title on top */
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+  gap: 30px;
+}
+
+/* Title styling */
+.app-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(51, 2, 2);
+  text-align: center;
+}
+
+/* Wrap for Search + Info */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.SearchBox,
+.InfoBox {
+  flex: 1;
+  max-width: 400px;
+}

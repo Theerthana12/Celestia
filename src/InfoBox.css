@@ -1,0 +1,28 @@
+.InfoBox{
+    text-align:center;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}
+.InfoBox {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two columns */
+  gap: 10px 20px; /* row gap + column gap */
+  margin-top: 15px;
+}
+
+.info-grid p {
+  margin: 5px 0;
+  font-size: 14px;
+}

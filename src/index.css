@@ -1,0 +1,28 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #0d0000de;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1690743300187-51d68146adf7?q=80&w=1170&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* or center if you want vertical centering */
+}
+
