@@ -1,9 +1,9 @@
 import { useState } from "react";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import "./SearchBox.css"
+import "./SearchhBox.css"
 
-export default function SearchBox({updateInfo}) {
+export default function SearchhBox({updateInfo}) {
   let [city,setCity]=useState("");
   let [error,setError]=useState(false);
   const API_URL="https://api.openweathermap.org/data/2.5/weather"
