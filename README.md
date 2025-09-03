@@ -1,12 +1,38 @@
-# React + Vite
+# 🌤️ Celestia – Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Celestia is a simple and beautiful weather application built with **React + Vite**.  
+It fetches real-time weather data using the **OpenWeatherMap API** and displays temperature, humidity, and conditions for any city.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🌍 Search weather by city name  
+- 🌡️ Displays temperature, min/max, humidity, and conditions  
+- 🎨 Clean UI with modern styling  
+- ⚡ Built with **Vite** for fast performance  
+- 🔑 Uses environment variables for secure API keys  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite  
+- **Styling:** CSS  
+- **API:** OpenWeatherMap  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Theerthana12/Celestia.git
+cd Celestia
+#Install dependencies
+npm install
+#Setup Environment Variables
+VITE_WEATHER_API_KEY=your_openweather_api_key
+#Run the app
+npm run dev
+#Build for Production
+npm run build
+
